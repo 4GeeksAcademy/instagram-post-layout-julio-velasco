@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/e8eaf376e1.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <main class="page">
+      <article class="post">
+        <header class="post__header">
+          <div class="post__user">
+            <img
+              src="./assets/images/html5-logo.svg"
+              alt="Logo de HTML5"
+              class="post__logo"
+            />
+
+            <div class="post__text">
+              <p class="post__title"><strong>Caracas - El Avila</strong></p>
+              <p class="post__author">Voy de Petare, Rumbo a La Pastora</p>
+            </div>
+          </div>
+          <button class="post__menu">
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+          </button>
+        </header>
+
+        <section class="post__image">
+          <img
+            src="./assets/images/caracas-avila.jpg"
+            alt="Caracas"
+            class="post__photo"
+          />
+        </section>
+
+        <section class="post__actions">
+          <div class="post__actions-left">
+            <button
+              class="post__action post__action--like"
+              aria-label="Me gusta"
+            >
+              <i class="fa-regular fa-heart"></i>
+            </button>
+            <button
+              class="post__action post__action--comment"
+              aria-label="Comentar"
+            >
+              <i class="fa-regular fa-comment"></i>
+            </button>
+            <button
+              class="post__action post__action--share"
+              aria-label="Compartir"
+            >
+              <i class="fa-regular fa-paper-plane"></i>
+            </button>
+          </div>
+          <button class="post__action post__action--">
+            <i class="fa-regular fa-bookmark"></i>
+          </button>
+        </section>
+        <section class="post__content">
+          <p class="post__likes">
+            Liked by <strong>4GeeksAcademy</strong>, <strong>HTML5</strong>,
+            <strong>Web</strong> and <strong>100,000 others</strong>
+          </p>
+          <p class="post__caption">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque
+            modi laboriosam illum, cum assumenda vero, eligendi harum temporibus
+            soluta culpa nulla aliquam unde sit aut non mollitia quas
+            repellendus impedit!
+          </p>
+        </section>
+      </article>
+    </main>
+  </body>
+</html>
